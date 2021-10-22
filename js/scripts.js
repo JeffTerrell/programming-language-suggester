@@ -1,6 +1,6 @@
 // Business Logic
 let js = 0;
-console.log();
+console.log(js);
 let python = 0;
 let csharp = 0;
 
@@ -37,10 +37,11 @@ $(document).ready(function() {
   $("#programselector").submit(function(event) {
     event.preventDefault();
 
-    scoreKeeper($("#fashionstyle input").val());
-    console.log();
+    // $('#fashionstyle').val();
+    // const test = $("#fashionstyle option:selected").val();
+    scoreKeeper($('fashionstyle').find(":selected").val());
+    console.log(js);
     scoreKeeper($("#preference").val());
-    console.log();
     scoreKeeper($("#fantasycreature").val());
     scoreKeeper($("#music").val());
     scoreKeeper($("#pickcolor").val());
