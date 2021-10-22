@@ -1,1 +1,26 @@
-dsa
+.question1 {
+  color: black;
+  background-color: lightblue;
+}
+
+.question2 {
+  color: black;
+  background-color: lightgreen;
+}
+
+.question3 {
+  color: black;
+  background-color: pink;
+}
+.question4 {
+  color: black;
+  background-color: lightgoldenrodyellow;
+}
+.question5 {
+  color: black;
+  background-color: lightcoral;
+}
+
+/* .btn {
+  background-color: blue;
+} */
