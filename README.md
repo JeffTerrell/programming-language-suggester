@@ -2,7 +2,7 @@
 
 #### By Jeff Terrell
 
-#### A webpage that selects a programming language based on the user's answers selected 
+#### A webpage that selects a programming language based on the user's selected answers
 
 ## Technologies Used
 
