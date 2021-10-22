@@ -1,7 +1,7 @@
 // Business Logic
-const js = 0;
-const python = 0;
-const csharp = 0;
+let js = 0;
+let python = 0;
+let csharp = 0;
 
 
 function scoreKeeper(language) {
@@ -19,12 +19,11 @@ function mostPoints(js,python,csharp) {
     $("#error").show();
   } else if (js > python && js > csharp) {
     $("#outputjs").show();
-  } else if (python > js && python > csharp); {
+  } else if (python > js && python > csharp) {
     $("#outputpython").show();
   } else if (csharp > js && csharp > python) {
     $("#outputcsharp").show();
   }
-
 }
 
 
