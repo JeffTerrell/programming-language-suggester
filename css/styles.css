@@ -1,50 +1,145 @@
+body {
+  background-image: url("/img/bg.jpg");
+}
+
+.header h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+.header h4 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.header h6 {
+  padding-bottom: 5px;
+}
+
 .question1 {
   color: black;
   background-color: lightblue;
+  padding-top: 10px;
+}
+
+#fashionstyle {
+  color: #00AAC3;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.question1 option {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .question2 {
   color: black;
   background-color: lightgreen;
+  padding-top: 10px;
+}
+
+#preference {
+  color: #009E4F;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.question2 option {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .question3 {
   color: black;
   background-color: pink;
+  padding-top: 10px;
 }
+
+#fantasycreature {
+  color: pink;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.question3 option {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .question4 {
   color: black;
   background-color: rgb(250, 250, 146);
+  padding-top: 10px;
 }
+
+#music {
+  color: lightgoldenrodyellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.question4 option {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .question5 {
   color: black;
   background-color: lightcoral;
+  padding-top: 10px;
+}
+
+#pickcolor {
+  color: lightcoral;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.question5 option {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .bluebg {
+  color: blue;
   background-color: lightblue;
 }
 
 .yellowbg {
+  color: rgb(71, 71, 17);
   background-color: rgb(250, 250, 146);
 }
 
 .purplebg {
+  color: purple;
   background-color: rgb(167, 167, 204);
+}
+
+#outputjs {
+  display: none;
+  margin-top: 15px;
 }
 
 #outputjs img {
   width: 15%;
   height: auto;
   margin-top: 15px;
-  border: 2px solid black;
+}
+
+#outputpython {
+  display: none;
+  margin-top: 15px;
 }
 
 #outputpython img {
-
+  width: 15%;
+  height: auto;
+  margin-top: 15px;
 }
 
-#outputc#
+#outputcsharp {
+  display: none;
+  margin-top: 15px;
+}
+#outputcsharp img {
+  width: 15%;
+  height: auto;
+  margin-top: 15px;
+}
+
+
 /* .btn {
   background-color: blue;
 } */

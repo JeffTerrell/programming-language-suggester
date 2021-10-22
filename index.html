@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
   <title>Programming Language Selector</title>
 </head>
 <body>
   <div class="container">
-    <h1>Which Programming Language is Right For You?</h1>
-    <h4>Javascript, Python, and C# are three of the most widely used programming languages in the world.</h4>
-    <h6>Answer the seven questions below and then click the "Submit" button to figure which of these languages is your programming soul mate</h6>
-    
+    <div class="header">
+      <h1>Which Programming Language is Right For You?</h1>
+      <h4>Javascript, Python, and C# are three of the most widely used programming languages in the world!</h4>
+      <h6>Answer the seven questions below and then click the "Submit" button to figure which of these languages is your programming soul mate.</h6>
+    </div>
     <form id="programselector">
       <div class="question1">
         <label for="fashionstyle"><h5>What is your fashion style?</h5></label>
-        <select id="fashionstyle" class="form-control" name="fashionstyle">
+        <select id="fashionstyle" class="form-control" name="fashionstyle">\
+          <option value="select">Select an answer...</option>
           <option value="trendy">Flashy and colorful, always on trend</option>
           <option value="old fashion">Old fashioned and conservative, muted colors</option>
           <option value="pristine">Pristine and well put together, an iron and can of starch is always near by</option>
@@ -25,6 +27,7 @@
       <div class="question2">
         <label for="preference"><h5>Which do you prefer?</h5></label>
         <select id="preference" class="form-control" name="preference">
+          <option value="select">Select an answer...</option>
           <option value="snake">Snakes</option>
           <option value="coffee">Coffee</option>
           <option value="sharp">Sharp pencils</option>
@@ -33,6 +36,7 @@
       <div class="question3">
         <label for="fantasycreature"><h5>What is your favorite fantasy creature?</h5></label>
         <select id="fantasycreature" class="form-control" name="fantasycreature">
+          <option value="select">Select an answer...</option>
           <option value="unicorn">Unicorn</option>
           <option value="hydra">Hydra</option>
           <option value="cyclops">Cyclops</option>
@@ -41,14 +45,16 @@
       <div class="question4">
         <label for="music"><h5>What is your favorite genre of classical music?</h5></label>
         <select id="music" class="form-control" name="music">
+          <option value="select">Select an answer...</option>
           <option value="renaissance">Renaissance (Palestrina anyone?)</option>
           <option value="romantic">Romantic (more Bach please!)</option>
           <option value="modern">Modern (I'll have some Richter with that!)</option>
         </select>  
       </div>
       <div class="question5">
-        <label for="fashionstyle"><h5>Pick a color</h5></label>
-        <select id="fashionstyle" class="form-control" name="fashionstyle">
+        <label for="pickcolor"><h5>Pick a color</h5></label>
+        <select id="pickcolor" class="form-control" name="pickcolor">
+          <option value="select">Select an answer...</option>
           <option value="blue" class="bluebg">Blue</option>
           <option value="yellow" class="yellowbg">Yellow</option>
           <option value="purple" class="purplebg">Purple</option>
@@ -63,19 +69,26 @@
         <li><a href="https://www.javascript.com/">JavaScript's home website with plenty of resources and learning tools</a></li>
         <li><a href="https://jquery.com/">Learn about jQuery, a fast and feature-rich JavaScript library</a></li>
         <li><a href="https://www.javascriptbook.com/">A comprehensive book on learning JavaScript and jQuery</a></li>
-      <img src="https://bit.ly/3E4Rk2O" alt="Javascript logo">  
+        <img src="https://bit.ly/3E4Rk2O" alt="Javascript logo">
+      </ul>  
     </div>
     <div id="outputpython">
       <p>Congrats! You're on team Python! Check out the helpful links below for more information about Python.</p>
-      <a href="https://www.python.org/doc/essays/blurb/">What is Python? An executive summary</a>
-      <a href="https://www.guru99.com/python-tutorials.html">Great Python tutorials for beginners</a>
-      <a href="https://nostarch.com/pythoncrashcourse2e">An awesome book for learning Python</a>
+      <ul>  
+        <li><a href="https://www.python.org/doc/essays/blurb/">What is Python? An executive summary</a></li>
+        <li><a href="https://www.guru99.com/python-tutorials.html">Great Python tutorials for beginners</a></li>
+        <li><a href="https://nostarch.com/pythoncrashcourse2e">An awesome book for learning Python</a></li>
+        <img src="https://bit.ly/3E8T1fw" alt="Python logo"> 
+      </ul>  
     </div>
-    <div id="outputc#">
+    <div id="outputcsharp">
       <p>Congrats! You're on team C#! Check out the helpful links below for more information about C#.</p>
-      <a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">A tour of the C# language</a>
-      <a href="https://www.geeksforgeeks.org/introduction-to-c-sharp/">A basic introduction to C#</a>
-      <a href="https://www.guru99.com/best-c-sharp-books.html">14 best books for learning C#</a>
+      <ul>
+        <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">A tour of the C# language</a></li>
+        <li><a href="https://www.geeksforgeeks.org/introduction-to-c-sharp/">A basic introduction to C#</a></li>
+        <li><a href="https://www.guru99.com/best-c-sharp-books.html">14 best books for learning C#</a></li>
+        <img src="https://bit.ly/30GEGIP" alt="C# logo">
+      </ul>   
     </div>
   </div>   
 </body>
