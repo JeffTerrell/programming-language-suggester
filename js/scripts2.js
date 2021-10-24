@@ -5,7 +5,33 @@ let python = 0;
 let csharp = 0;
 let select = 0;
 
-function scoreKeeper(language) {
+function scoreKeeper1(language) {
+  if (language === "js") {
+    js += 1.5;
+    console.log();
+  } else if (language === "python") {
+    python += 1.5;
+  } else if (language === "csharp") {
+    csharp += 1.5;
+  } else if (language === "select") {
+    select += 1.5;
+  }  
+}
+
+function scoreKeeper2(language) {
+  if (language === "js") {
+    js += 1.6;
+    console.log();
+  } else if (language === "python") {
+    python += 1.6;
+  } else if (language === "csharp") {
+    csharp += 1.6;
+  } else if (language === "select") {
+    select += 1.6;
+  }  
+}
+
+function scoreKeeperRemain(language) {
   if (language === "js") {
     js += 1;
     console.log();
@@ -18,8 +44,9 @@ function scoreKeeper(language) {
   }  
 }
 
+
 function mostPoints(js,python,csharp,select) {
-  if (select === 1 || select === 2 || select === 3 || select === 4 || select === 5) {
+  if (select) {
     $("#error").show();
   } else if (js > python && js > csharp) {
     $("#outputjs").show();
@@ -28,7 +55,7 @@ function mostPoints(js,python,csharp,select) {
   } else if (csharp > js && csharp > python) {
     $("#outputcsharp").show();
   } else {
-    return "Please answer all questions"
+    return "Error"
   }
 }
 
@@ -43,12 +70,14 @@ $(document).ready(function() {
     $("#outputcsharp").hide();
     $("#error").hide();
 
-    scoreKeeper($("#fashionstyle").val());
-    console.log(js);  
-    scoreKeeper($("#preference").val());
-    scoreKeeper($("#fantasycreature").val());
-    scoreKeeper($("#music").val());
-    scoreKeeper($("#pickcolor").val());
+
+    scoreKeeper1($("#fashionstyle").val())
+    console.log(js);
+    scoreKeeper2($("#preference").val());
+    console.log(python);
+    scoreKeeperRemain($("#fantasycreature").val());
+    scoreKeeperRemain($("#music").val());
+    scoreKeeperRemain($("#pickcolor").val());
 
     mostPoints(js, python, csharp, select);
 
@@ -56,7 +85,6 @@ $(document).ready(function() {
     python = 0
     csharp = 0
     select = 0
-
-
+    
   });
-});  
+});    
