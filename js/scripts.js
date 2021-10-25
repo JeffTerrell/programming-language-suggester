@@ -1,6 +1,5 @@
 // Business Logic
 let js = 0;
-console.log(js);
 let python = 0;
 let csharp = 0;
 let select = 0;
@@ -8,7 +7,6 @@ let select = 0;
 function scoreKeeper1(language) {
   if (language === "js") {
     js += 1.1;
-    console.log();
   } else if (language === "python") {
     python += 1.1;
   } else if (language === "csharp") {
@@ -21,7 +19,6 @@ function scoreKeeper1(language) {
 function scoreKeeper2(language) {
   if (language === "js") {
     js += 1.2;
-    console.log();
   } else if (language === "python") {
     python += 1.2;
   } else if (language === "csharp") {
@@ -34,7 +31,6 @@ function scoreKeeper2(language) {
 function scoreKeeperRemain(language) {
   if (language === "js") {
     js += 1;
-    console.log();
   } else if (language === "python") {
     python += 1;
   } else if (language === "csharp") {
@@ -62,7 +58,6 @@ function mostPoints(js,python,csharp,select) {
 
 // User Interface Logic
 $(document).ready(function() {
-  console.log("Script executing!");
   $("#programselector").submit(function(event) {
     event.preventDefault(); 
     $("#outputjs").hide();
@@ -72,9 +67,7 @@ $(document).ready(function() {
 
 
     scoreKeeper1($("#fashionstyle").val())
-    console.log(js);
     scoreKeeper2($("#preference").val());
-    console.log(python);
     scoreKeeperRemain($("#fantasycreature").val());
     scoreKeeperRemain($("#music").val());
     scoreKeeperRemain($("#pickcolor").val());

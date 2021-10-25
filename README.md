@@ -26,7 +26,7 @@ An interactive webpage containing questions that help the user direct them to wh
 
 ## Known Bugs
 
-* Chosen programming language is not displaying properly.
+* None at this time.
 
 ## License
 
