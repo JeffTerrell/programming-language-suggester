@@ -18,7 +18,7 @@ An interactive webpage containing questions that help the user direct them to wh
 
 ## Setup/Installation Requirements
 
-* Create a new directory on your local machine
+* Create a new directory on your local machine.
 * From a terminal, navigate to the newly created directory and use the "Git clone" command to copy the repository from this address (https://github.com/JeffTerrell/programming-language-suggester).
 * Navigate to the main level of the cloned directory.
 * Click to open index.html in a web browser.
