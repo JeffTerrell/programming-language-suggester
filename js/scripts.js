@@ -80,11 +80,10 @@ $(document).ready(function() {
     scoreKeeperRemain($("#pickcolor").val());
 
     mostPoints(js, python, csharp, select);
-
+    
     js = 0
     python = 0
     csharp = 0
     select = 0
-    
   });
 });    

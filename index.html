@@ -10,89 +10,90 @@
 <body>
   <div class="container">
     <div class="shadow-lg p-3 mb-5 bg-white rounded">
-    <div class="header">
-      <h1>Which Programming Language is Right For You?</h1>
-      <h4>Javascript, Python, and C# are three of the most widely used programming languages in the world!</h4>
-      <h6>Answer the questions below and then click the "Submit" button to figure which of these programming languages is your soul mate.</h6>
-    </div>
-    <form id="programselector">
-      <div class="question1">
-        <label for="fashionstyle"><h5>What is your fashion style?</h5></label>
-        <select id="fashionstyle" class="form-control">
-          <option value="select">Select an answer...</option>
-          <option value="js">Flashy and colorful, always on trend</option>
-          <option value="csharp">Old fashioned and conservative, muted colors</option>
-          <option value="python">Pristine and well put together, an iron and can of starch is always near by</option>
-        </select>  
+      <div class="header">
+        <h1>Which Programming Language is Right For You?</h1>
+        <h4>Javascript, Python, and C# are three of the most widely used programming languages in the world!</h4>
+        <h6>Answer the questions below and then click the "Submit" button to figure which of these programming languages is your soul mate.</h6>
       </div>
-      <div class="question2">
-        <label for="preference"><h5>Which do you prefer?</h5></label>
-        <select id="preference" class="form-control" name="preference">
-          <option value="select">Select an answer...</option>
-          <option value="python">Snakes</option>
-          <option value="js">Coffee</option>
-          <option value="csharp">Sharp pencils</option>
-        </select>  
-      </div>
-      <div class="question3">
-        <label for="fantasycreature"><h5>What is your favorite fantasy creature?</h5></label>
-        <select id="fantasycreature" class="form-control" name="fantasycreature">
-          <option value="select">Select an answer...</option>
-          <option value="js">Unicorn</option>
-          <option value="python">Hydra</option>
-          <option value="csharp">Cyclops</option>
-        </select>  
-      </div>
-      <div class="question4">
-        <label for="music"><h5>What is your favorite genre of classical music?</h5></label>
-        <select id="music" class="form-control" name="music">
-          <option value="select">Select an answer...</option>
-          <option value="csharp">Renaissance (Palestrina anyone?)</option>
-          <option value="python">Romantic (more Bach please!)</option>
-          <option value="js" value="js">Modern (I'll have some Richter with that!)</option>
-        </select>  
-      </div>
-      <div class="question5">
-        <label for="pickcolor"><h5>Pick a color</h5></label>
-        <select id="pickcolor" class="form-control" name="pickcolor">
-          <option value="select">Select an answer...</option>
-          <option value="python" class="bluebg">Blue</option>
-          <option value="js" class="yellowbg">Yellow</option>
-          <option value="csharp" class="purplebg">Purple</option>
-        </select>  
-      </div>
-      <button type="submit" class="btn btn-primary">Submit!</button>
-    </form>
+      <form id="programselector">
+        <div class="question1">
+          <label for="fashionstyle"><h5>What is your fashion style?</h5></label>
+          <select id="fashionstyle" class="form-control">
+            <option value="select">Select an answer...</option>
+            <option value="js">Flashy and colorful, always on trend</option>
+            <option value="csharp">Old fashioned and conservative, muted colors</option>
+            <option value="python">Pristine and well put together, an iron and can of starch is always near by</option>
+          </select>  
+        </div>
+        <div class="question2">
+          <label for="preference"><h5>Which do you prefer?</h5></label>
+          <select id="preference" class="form-control" name="preference">
+            <option value="select">Select an answer...</option>
+            <option value="python">Snakes</option>
+            <option value="js">Coffee</option>
+            <option value="csharp">Sharp pencils</option>
+          </select>  
+        </div>
+        <div class="question3">
+          <label for="fantasycreature"><h5>What is your favorite fantasy creature?</h5></label>
+          <select id="fantasycreature" class="form-control" name="fantasycreature">
+            <option value="select">Select an answer...</option>
+            <option value="js">Unicorn</option>
+            <option value="python">Hydra</option>
+            <option value="csharp">Cyclops</option>
+          </select>  
+        </div>
+        <div class="question4">
+          <label for="music"><h5>What is your favorite genre of classical music?</h5></label>
+          <select id="music" class="form-control" name="music">
+            <option value="select">Select an answer...</option>
+            <option value="csharp">Renaissance (Palestrina anyone?)</option>
+            <option value="python">Romantic (more Bach please!)</option>
+            <option value="js" value="js">Modern (I'll have some Richter with that!)</option>
+          </select>  
+        </div>
+        <div class="question5">
+          <label for="pickcolor"><h5>Pick a color</h5></label>
+          <select id="pickcolor" class="form-control" name="pickcolor">
+            <option value="select">Select an answer...</option>
+            <option value="python" class="bluebg">Blue</option>
+            <option value="js" class="yellowbg">Yellow</option>
+            <option value="csharp" class="purplebg">Purple</option>
+          </select>  
+        </div>
+        <button type="submit" class="btn btn-primary">Submit!</button>
+      </form>
 
-    <div id="outputjs">
-      <p>Congrats! You're on team JavaScript! Check out the helpful links below for more information about JavaScript.</p>
-      <ul>
-        <li><a href="https://www.javascript.com/">JavaScript's home website with plenty of resources and learning tools</a></li>
-        <li><a href="https://jquery.com/">Learn about jQuery, a fast and feature-rich JavaScript library</a></li>
-        <li><a href="https://www.javascriptbook.com/">A comprehensive book on learning JavaScript and jQuery</a></li>
-        <img src="https://bit.ly/3E4Rk2O" alt="Javascript logo">
-      </ul>  
-    </div>
-    <div id="outputpython">
-      <p>Congrats! You're on team Python! Check out the helpful links below for more information about Python.</p>
-      <ul>  
-        <li><a href="https://www.python.org/doc/essays/blurb/">What is Python? An executive summary</a></li>
-        <li><a href="https://www.guru99.com/python-tutorials.html">Great Python tutorials for beginners</a></li>
-        <li><a href="https://nostarch.com/pythoncrashcourse2e">An awesome book for learning Python</a></li>
-        <img src="https://bit.ly/3E8T1fw" alt="Python logo"> 
-      </ul>  
-    </div>
-    <div id="outputcsharp">
-      <p>Congrats! You're on team C#! Check out the helpful links below for more information about C#.</p>
-      <ul>
-        <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">A tour of the C# language</a></li>
-        <li><a href="https://www.geeksforgeeks.org/introduction-to-c-sharp/">A basic introduction to C#</a></li>
-        <li><a href="https://www.guru99.com/best-c-sharp-books.html">14 best books for learning C#</a></li>
-        <img src="https://bit.ly/30GEGIP" alt="C# logo">
-      </ul>   
-    </div>
-    <div id="error">
-      <p>Please answer all questions!</p>
+      <div id="outputjs">
+        <h5>Congrats! You're on team JavaScript! Check out the helpful links below for more information about JavaScript:</h5>
+        <ul>
+          <li><a href="https://www.javascript.com/">JavaScript's home website with plenty of resources and learning tools</a></li>
+          <li><a href="https://jquery.com/">Learn about jQuery, a fast and feature-rich JavaScript library</a></li>
+          <li><a href="https://www.javascriptbook.com/">A comprehensive book on learning JavaScript and jQuery</a></li>
+          <img src="https://bit.ly/3E4Rk2O" alt="Javascript logo">
+        </ul>  
+      </div>
+      <div id="outputpython">
+        <h5>Congrats! You're on team Python! Check out the helpful links below for more information about Python:</h5>
+        <ul>  
+          <li><a href="https://www.python.org/doc/essays/blurb/">What is Python? An executive summary</a></li>
+          <li><a href="https://www.guru99.com/python-tutorials.html">Great Python tutorials for beginners</a></li>
+          <li><a href="https://nostarch.com/pythoncrashcourse2e">An awesome book for learning Python</a></li>
+          <img src="https://bit.ly/3E8T1fw" alt="Python logo"> 
+        </ul>  
+      </div>
+      <div id="outputcsharp">
+        <h5>Congrats! You're on team C#! Check out the helpful links below for more information about C#:</h5>
+        <ul>
+          <li><a href="https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">A tour of the C# language</a></li>
+          <li><a href="https://www.geeksforgeeks.org/introduction-to-c-sharp/">A basic introduction to C#</a></li>
+          <li><a href="https://www.guru99.com/best-c-sharp-books.html">14 best books for learning C#</a></li>
+          <img src="https://bit.ly/30GEGIP" alt="C# logo">
+        </ul>   
+      </div>
+      <div id="error">
+        <h2>Please answer all questions!</h2>
+      </div>
     </div>
   </div>    
 </body>
