@@ -4,7 +4,7 @@ let python = 0;
 let csharp = 0;
 let select = 0;
 
-function scoreKeeper1(language) {
+function scoreKeeperOne(language) {
   if (language === "js") {
     js += 1.1;
   } else if (language === "python") {
@@ -16,7 +16,7 @@ function scoreKeeper1(language) {
   }  
 }
 
-function scoreKeeper2(language) {
+function scoreKeeperTwo(language) {
   if (language === "js") {
     js += 1.2;
   } else if (language === "python") {
@@ -51,7 +51,7 @@ function mostPoints(js,python,csharp,select) {
   } else if (csharp > js && csharp > python) {
     $("#outputcsharp").show();
   } else {
-    return "Error"
+    return "Error";
   }
 }
 
@@ -66,17 +66,17 @@ $(document).ready(function() {
     $("#error").hide();
 
 
-    scoreKeeper1($("#fashionstyle").val())
-    scoreKeeper2($("#preference").val());
+    scoreKeeperOne($("#fashionstyle").val());
+    scoreKeeperTwo($("#preference").val());
     scoreKeeperRemain($("#fantasycreature").val());
     scoreKeeperRemain($("#music").val());
     scoreKeeperRemain($("#pickcolor").val());
 
     mostPoints(js, python, csharp, select);
     
-    js = 0
-    python = 0
-    csharp = 0
-    select = 0
+    js = 0;
+    python = 0;
+    csharp = 0;
+    select = 0;
   });
 });    

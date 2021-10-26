@@ -14,7 +14,7 @@
 
 ## Description
 
-An interactive webpage containing questions that help the user direct them to which programming language (JavaScript, Python, C#) they are most like. After clicking the submit button, the user will be shown their chosen language and be given several links to resources.
+An interactive webpage containing questions that after providing answers, show the user which programming language (JavaScript, Python, C#) they are most like. After clicking the submit button, the user will be shown their chosen language and be given several links to resources.
 
 ## Setup/Installation Requirements
 

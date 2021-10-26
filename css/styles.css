@@ -28,6 +28,7 @@ body {
 #programselector {
   box-shadow: 0px 1px 15px #888888;
 }
+
 .question1 {
   color: black;
   background-color: lightblue;
@@ -40,7 +41,7 @@ body {
 }
 
 .question1 option {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .question2 {
@@ -55,7 +56,7 @@ body {
 }
 
 .question2 option {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .question3 {
@@ -70,7 +71,7 @@ body {
 }
 
 .question3 option {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .question4 {
@@ -85,7 +86,7 @@ body {
 }
 
 .question4 option {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .question5 {
@@ -100,7 +101,7 @@ body {
 }
 
 .question5 option {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .bluebg {
@@ -159,6 +160,7 @@ body {
   padding-left: 1%;
   box-shadow: 0px 1px 15px #888888;
 }
+
 #outputcsharp img {
   width: 15%;
   height: auto;
@@ -212,4 +214,3 @@ body {
     background-position:20vw;
   }
 }
-
