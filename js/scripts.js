@@ -4,6 +4,7 @@ let python = 0;
 let csharp = 0;
 let select = 0;
 
+
 function scoreKeeperOne(language) {
   if (language === "js") {
     js += 1.1;
@@ -11,7 +12,8 @@ function scoreKeeperOne(language) {
     python += 1.1;
   } else if (language === "csharp") {
     csharp += 1.1;
-  } else if (language === "select") {
+  } else {
+    language === "select";
     select += 1.1;
   }  
 }
@@ -23,7 +25,8 @@ function scoreKeeperTwo(language) {
     python += 1.2;
   } else if (language === "csharp") {
     csharp += 1.2;
-  } else if (language === "select") {
+  } else {
+    language === "select";
     select += 1.2;
   }  
 }
@@ -35,7 +38,8 @@ function scoreKeeperRemain(language) {
     python += 1;
   } else if (language === "csharp") {
     csharp += 1;
-  } else if (language === "select") {
+  } else {
+    language === "select";
     select += 1;
   }  
 }
@@ -51,7 +55,7 @@ function mostPoints(js,python,csharp,select) {
   } else if (csharp > js && csharp > python) {
     $("#outputcsharp").show();
   } else {
-    return "Error";
+    $("#Error").show();
   }
 }
 
